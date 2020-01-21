@@ -1,6 +1,7 @@
 .infoCardContainer {
   max-width: 1260px;
   margin: 0 auto;
+  padding: 0;
 }
 .infoCardHeadline {
   color: black;
@@ -8,8 +9,7 @@
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
-  color: gray;
-  background-color: white;
+  color: white;
 }
 
 .infoCardContainer--metal {
